@@ -1,0 +1,114 @@
+
+
+
+.container{
+    max-width:60%;
+    margin: 0 auto;
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:100px;
+  }
+
+  form .user-details {
+      margin-bottom: 15px;
+      width: 60%;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .input-box label{
+        padding-left: 10px;
+    }
+    form .category{
+      width: 60%;
+    }
+    
+    .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+  }
+
+   /* form .category{
+     display: flex;
+     width: 100%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   } */
+  
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button{
+     height: 25%;
+     width: 30%;
+     border-radius: 5px;
+     padding: 20px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background:  #9b59b6;
+   }
+   .button:hover{
+    transform: scale(0.99);
+    background: #c87de6;
+    color: #000;
+    }
+   @media(max-width: 584px){
+   .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    /* form .category{
+      width: 100%;
+    } */
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+    @media(max-width: 459px){
+    .container .content .category{
+      flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+  
